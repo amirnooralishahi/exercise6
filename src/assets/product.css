@@ -1,0 +1,178 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "yekan";
+  src: url(font/B_Yekan/Yekan.ttf);
+}
+body {
+  font-family: "yekan" !important;
+}
+
+.header {
+  width: 100%;
+}
+.header-contain .search {
+  width: 600px;
+}
+.header-contain .search .stick {
+  color: #A72F3B;
+}
+
+.category {
+  color: #434343 !important;
+}
+.category-head {
+  margin-left: 4rem;
+  font-size: 1.1rem;
+  gap: 4.5rem;
+}
+
+.Card .filter {
+  width: 300px;
+  height: 470px !important;
+}
+.Card .filter-contain {
+  gap: 1rem;
+}
+.Card .filter-contain .title .delete {
+  color: #A72F3B !important;
+  font-size: 12px;
+}
+.Card .filter-contain .line {
+  width: 100%;
+  height: 1px;
+  background: rgb(209, 209, 209);
+}
+.Card-contain .filter-item {
+  color: #242424 !important;
+  font-size: 16.5px !important;
+  font-weight: normal;
+}
+.Card-contain .filter-item .line .full {
+  color: #A72F3B;
+}
+.Card-contain .filter-item .line-down {
+  height: 2px;
+  background-color: #A72F3B;
+  width: 100%;
+}
+.Card-contain .filter-item .item {
+  gap: 1.9rem !important;
+  margin-right: 4.5rem;
+}
+.Card-contain .cardItems {
+  margin-top: 11rem;
+  gap: 30px;
+  margin-right: 1.5rem;
+}
+.Card-contain .cardItems .cardItem {
+  width: 300px !important;
+}
+.Card-contain .cardItems .cardItem .heart {
+  font-size: 20px;
+}
+.navigation {
+  margin-left: 40px;
+}
+.navigation .next,
+.navigation .per {
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid darkred;
+}
+.navigation .next .left,
+.navigation .next .right,
+.navigation .per .left,
+.navigation .per .right {
+  color: darkred;
+}
+.navigation .next .left:hover,
+.navigation .next .right:hover,
+.navigation .per .left:hover,
+.navigation .per .right:hover {
+  cursor: pointer;
+}
+.navigation-contain {
+  width: 680px;
+}
+.navigation-contain .circle {
+  width: 2rem;
+  height: 2rem;
+}
+
+.footer_up {
+  background-color: #641C23;
+}
+.footer_up-contain .right .text {
+  font-size: 13px;
+}
+.footer_up-contain .right .button {
+  background-color: #ae2432;
+  height: 40px;
+  width: 80px;
+}
+.footer_up-contain .right .email {
+  width: 430px;
+  background-color: #641C23;
+}
+.footer_up-contain .left {
+  margin-right: 250px;
+}
+.footer_up-contain .left .icon {
+  color: white;
+}
+
+.footer_down {
+  background-color: #ae2432;
+}
+.footer_down-contain .text {
+  color: rgb(222, 220, 220);
+}
+.footer_down-contain .with,
+.footer_down-contain .several,
+.footer_down-contain .guid {
+  color: white;
+}
+.footer_down-contain .with .buy,
+.footer_down-contain .several .buy,
+.footer_down-contain .guid .buy {
+  position: relative;
+}
+.footer_down-contain .with .buy::after,
+.footer_down-contain .several .buy::after,
+.footer_down-contain .guid .buy::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
+.footer_down-contain .with .line,
+.footer_down-contain .several .line,
+.footer_down-contain .guid .line {
+  height: 1px;
+  background-color: white;
+}
+.footer_down-contain .shop-contain {
+  border: 1px solid red !important;
+  gap: 60px;
+}
+.footer_down-contain .shop-contain .title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  border: 1px solid blue !important;
+}
+.footer_down-contain .shop-contain .info {
+  color: rgb(201, 201, 201) !important;
+  font-size: 12px;
+}/*# sourceMappingURL=product.css.map */
